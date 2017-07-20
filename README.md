@@ -1,2 +1,2 @@
 # simple-persistent-data
-A simple way to handing persistent data in a Cordova app
+A simple way to handle persistent data in a Cordova app
