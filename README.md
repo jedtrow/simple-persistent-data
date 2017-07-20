@@ -1,10 +1,10 @@
 # simple-persistent-data
 A simple way to handing persistent data in a Cordova app.
 
-Basically simplePersistantData allows you to have one JSON object that gets saved to persistant on device storage. This is incredibly usefull for simple apps that only need to save small amounts of data such as settings.
+Basically simplePersistentData allows you to have one JSON object that gets saved to persistent on device storage. This is incredibly usefull for simple apps that only need to save small amounts of data such as settings.
 
 # Usage
-Simply include the file simplePersistantData.min.js (includes fileWrapper.js).
+Simply include the file simplePersistentData.min.js (includes fileWrapper.js).
 
 Then after onDeviceReady you would:
 ```js

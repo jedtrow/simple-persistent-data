@@ -1,6 +1,6 @@
 /**
- *  simplePersistantData is a tool that uses fileWrapper to 
- *  write and read files to persistant on device storage
+ *  simplePersistentData is a tool that uses fileWrapper to 
+ *  write and read files to persistent on device storage
  *  in cordova.
  *  
  *  Saves data in "app_data.txt" data should be a JSON
@@ -11,13 +11,13 @@
  *  USAGE
  *  
  *  save_data()
- *      saves the object "data" to either a persistant 
+ *      saves the object "data" to either a persistent 
  *      on device storage location or if in DEVMODE to a
  *      localStorage property.
  *  
  *  load_data()
  *      loads previously saved data into the object "data" 
- *      from either a persistant on device storage 
+ *      from either a persistent on device storage 
  *      location or if in DEVMODE to a localStorage 
  *      property.
  */
