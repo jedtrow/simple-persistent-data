@@ -25,3 +25,9 @@ Then whenever you want to save data to 'disk'
 ```js
 save_data();
 ```
+
+To mimic behaviour in the browser simply enter the following in your console.
+
+```js
+localStorage.DEVMODE = true;
+```
