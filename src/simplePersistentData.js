@@ -38,7 +38,7 @@ function save_data(){
 function load_data(success_callback, error_callback){
     if(localStorage.getItem("DEVMODE")){
         if(localStorage.getItem("app_data") !== null){
-            data = localStorage.getItem("app_data");
+            data = JSON.parse(localStorage.getItem("app_data"));
         }
         success_callback();
     }else{
